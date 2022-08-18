@@ -53,8 +53,8 @@ class MyApp extends StatelessWidget {
           Locale("ja"),
           Locale("ko"),
         ],
-        localizationsDelegates: [
-          const TranslationsDelegate(),
+        localizationsDelegates: const [
+          TranslationsDelegate(),
           ...GlobalStreamChatLocalizations.delegates
         ]);
   }
